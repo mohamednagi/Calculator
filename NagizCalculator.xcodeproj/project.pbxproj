@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A2C24B9202F516400AD245A /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C24B8202F516400AD245A /* SideMenuViewController.swift */; };
+		9A2C24BB202F524700AD245A /* SegueMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C24BA202F524700AD245A /* SegueMenuViewController.swift */; };
 		9A6B50F1200B57C1000DA689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B50F0200B57C1000DA689 /* AppDelegate.swift */; };
 		9A6B50F3200B57C1000DA689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B50F2200B57C1000DA689 /* ViewController.swift */; };
 		9A6B50F6200B57C1000DA689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B50F4200B57C1000DA689 /* Main.storyboard */; };
 		9A6B50F8200B57C1000DA689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B50F7200B57C1000DA689 /* Assets.xcassets */; };
 		9A6B50FB200B57C1000DA689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6B50F9200B57C1000DA689 /* LaunchScreen.storyboard */; };
+		9A6CE4C120305C5200EB6923 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CE4C020305C5200EB6923 /* Sender.swift */; };
+		9A6CE4C32030602D00EB6923 /* Reciever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CE4C22030602D00EB6923 /* Reciever.swift */; };
+		9A776E8F200CC92A009E96D8 /* MyOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A776E8E200CC92A009E96D8 /* MyOperations.swift */; };
+		9A93FC0B20308554001D47C5 /* MySideBarShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A93FC0A20308554001D47C5 /* MySideBarShadowView.swift */; };
+		9AAD1E68200C213F00E555C9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD1E67200C213F00E555C9 /* CustomButton.swift */; };
+		9AAD1E6A200C3E2900E555C9 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD1E69200C3E2900E555C9 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A2C24B8202F516400AD245A /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		9A2C24BA202F524700AD245A /* SegueMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueMenuViewController.swift; sourceTree = "<group>"; };
 		9A6B50ED200B57C1000DA689 /* NagizCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NagizCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6B50F0200B57C1000DA689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A6B50F2200B57C1000DA689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		9A6B50F7200B57C1000DA689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A6B50FA200B57C1000DA689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A6B50FC200B57C1000DA689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6CE4C020305C5200EB6923 /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
+		9A6CE4C22030602D00EB6923 /* Reciever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reciever.swift; sourceTree = "<group>"; };
+		9A776E8E200CC92A009E96D8 /* MyOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOperations.swift; sourceTree = "<group>"; };
+		9A93FC0A20308554001D47C5 /* MySideBarShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySideBarShadowView.swift; sourceTree = "<group>"; };
+		9AAD1E67200C213F00E555C9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		9AAD1E69200C3E2900E555C9 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +70,20 @@
 		9A6B50EF200B57C1000DA689 /* NagizCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				9A6B50F0200B57C1000DA689 /* AppDelegate.swift */,
-				9A6B50F2200B57C1000DA689 /* ViewController.swift */,
 				9A6B50F4200B57C1000DA689 /* Main.storyboard */,
+				9A6B50F0200B57C1000DA689 /* AppDelegate.swift */,
+				9A6CE4C22030602D00EB6923 /* Reciever.swift */,
+				9A6CE4C020305C5200EB6923 /* Sender.swift */,
 				9A6B50F7200B57C1000DA689 /* Assets.xcassets */,
 				9A6B50F9200B57C1000DA689 /* LaunchScreen.storyboard */,
 				9A6B50FC200B57C1000DA689 /* Info.plist */,
+				9AAD1E67200C213F00E555C9 /* CustomButton.swift */,
+				9AAD1E69200C3E2900E555C9 /* MyView.swift */,
+				9A93FC0A20308554001D47C5 /* MySideBarShadowView.swift */,
+				9A2C24B8202F516400AD245A /* SideMenuViewController.swift */,
+				9A2C24BA202F524700AD245A /* SegueMenuViewController.swift */,
+				9A6B50F2200B57C1000DA689 /* ViewController.swift */,
+				9A776E8E200CC92A009E96D8 /* MyOperations.swift */,
 			);
 			path = NagizCalculator;
 			sourceTree = "<group>";
@@ -136,8 +160,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6CE4C120305C5200EB6923 /* Sender.swift in Sources */,
+				9A93FC0B20308554001D47C5 /* MySideBarShadowView.swift in Sources */,
+				9AAD1E6A200C3E2900E555C9 /* MyView.swift in Sources */,
+				9A2C24BB202F524700AD245A /* SegueMenuViewController.swift in Sources */,
+				9A6CE4C32030602D00EB6923 /* Reciever.swift in Sources */,
 				9A6B50F3200B57C1000DA689 /* ViewController.swift in Sources */,
 				9A6B50F1200B57C1000DA689 /* AppDelegate.swift in Sources */,
+				9AAD1E68200C213F00E555C9 /* CustomButton.swift in Sources */,
+				9A2C24B9202F516400AD245A /* SideMenuViewController.swift in Sources */,
+				9A776E8F200CC92A009E96D8 /* MyOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NagizCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nagiz.NagizCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,6 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NagizCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nagiz.NagizCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
